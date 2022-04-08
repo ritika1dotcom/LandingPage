@@ -1,0 +1,145 @@
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    background-size: cover;
+    
+}
+h2
+{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600px;
+    font-size: 35px;
+    color: white;
+}
+footer
+{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;  
+}
+.intro
+{
+    width: 400px;
+    height: 600px;
+    position: fixed;
+    left: 720px;
+    top: 120px;
+    margin: 20px;
+    padding: 10px;
+}
+p
+{
+    font-size: 15px;
+    color: whitesmoke;
+}
+button
+{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    width: 160px;
+    font-size: 15px;
+    color: hsl(257, 46%, 70%) ;
+    box-shadow: 2px 2px hsl(240, 1%, 27%) ;;
+}
+.img-container
+{
+    position: fixed;
+    top: 140px;
+    left: 70px;
+}
+.img-container img
+{
+    width: 650px;
+    height: 400px;
+}
+header
+{
+    position: fixed;
+    top: 40px;
+    left: 70px;
+}
+i
+{
+    padding: 5px;
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 2px rgb(211, 211, 211);
+    color: white;
+}
+/*Responsive Landing Page Media Query*/
+
+@media screen and (max-width: 375px)
+{
+   body
+   {
+       font-weight: 300px;
+   }
+   .img-container img
+   {
+       width: 75%;
+       height: 30%;
+   }
+   .img-container
+   {
+       top: 10%;
+   }
+   .intro
+   {
+       width: 70%;
+       height: auto;
+       left: 5%;
+       top: 45%;
+       text-align: center;
+   }
+   h2
+   {
+       font-weight: 400px;
+       font-size: 18px;
+   }
+   header
+   {
+       top: 1%;
+   }
+   header img
+   {
+       height: 20px;
+   }
+   p{
+       font-size: 12px;
+       text-align: center;
+   }
+   button
+   {
+       width: 40%;
+       padding: 5px;
+       margin: 5px;
+       font-size: 12px;
+   }
+   footer
+   {
+       bottom: 2%;
+       right: 41%;
+   }
+   footer i.fa-facebook, i.fa-instagram, i.fa-twitter
+   {
+       font-size: 12px;
+       vertical-align: middle;
+       text-align: center;
+   }
+   i
+   {
+       padding: 2px;
+       margin: 2px;
+       width: 12px;
+       height: 12px;
+   }
+
+
+}
